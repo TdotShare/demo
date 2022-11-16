@@ -15,6 +15,7 @@ public class ProductController {
         return "demo";
     }
 
+
     @GetMapping("/json")
     public Map<String, Object> getJson() {
         Map<String, Object> map = new HashMap<>();
